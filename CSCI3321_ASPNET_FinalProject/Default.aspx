@@ -19,6 +19,11 @@
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
             </p>
         </div>
+        <div>
+            
+            <asp:Button ID="btnGoToBooks" runat="server" OnClick="btnGoToBooks_Click" Text="Click here to add books to a book collection" CssClass="btn btn-primary"/>
+            
+        </div>
         <div class="col-md-4">
             <h2>Get more libraries</h2>
             <p>

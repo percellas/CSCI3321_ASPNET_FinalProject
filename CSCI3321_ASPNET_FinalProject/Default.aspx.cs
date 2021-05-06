@@ -13,5 +13,10 @@ namespace CSCI3321_ASPNET_FinalProject
         {
 
         }
+
+        protected void btnGoToBooks_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddBook.aspx");
+        }
     }
 }
